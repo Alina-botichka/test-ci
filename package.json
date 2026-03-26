@@ -4,15 +4,15 @@
   "description": "Функция для определения статуса здоровья игрового персонажа",
   "license": "MIT",
   "author": "Rysaev Damir <freepad@ya.ru>",
-  "type": "commonjs",
+  "type": "module",
   "main": "src/health.js",
   "scripts": {
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
     "lint": "eslint . --max-warnings=0",
     "lint:fix": "eslint . --fix",
-    "test": "jest",
-    "test:coverage": "jest --coverage",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage",
     "coverage": "jest --coverage"
   },
   "devDependencies": {

@@ -12,4 +12,4 @@ function getHealthStatus(character) {
   return 'critical';
 }
 
-module.exports = getHealthStatus;
+export default getHealthStatus;

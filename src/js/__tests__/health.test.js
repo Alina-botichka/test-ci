@@ -1,4 +1,5 @@
-const getHealthStatus = require('../../js/health');
+import getHealthStatus from '../health.js';
+import { jest, describe, test, expect } from '@jest/globals';
 
 describe('getHealthStatus', () => {
   describe('healthy status (health > 50)', () => {

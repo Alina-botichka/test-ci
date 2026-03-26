@@ -1,7 +1,9 @@
-module.exports = {
+export default {
   testEnvironment: 'node',
+  transform: {},
   collectCoverageFrom: [
     'src/js/health.js',
+    'src/js/sort.js',
     '!**/node_modules/**',
   ],
   coverageThreshold: {
@@ -11,5 +13,8 @@ module.exports = {
       branches: 100,
       statements: 100,
     },
+  },
+  moduleNameMapper: {
+    '^(\\.{1,2}/.*)\\.js$': '$1',
   },
 };
