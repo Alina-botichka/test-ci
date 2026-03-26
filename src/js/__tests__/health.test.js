@@ -1,5 +1,4 @@
-import getHealthStatus from '../health.js';
-import { jest, describe, test, expect } from '@jest/globals';
+import getHealthStatus from '../health';
 
 describe('getHealthStatus', () => {
   describe('healthy status (health > 50)', () => {
