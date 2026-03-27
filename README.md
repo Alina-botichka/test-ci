@@ -1,3 +1,5 @@
+[![CI](https://github.com/Alina-botichka/test-ci/actions/workflows/ci.yml/badge.svg)](https://github.com/Alina-botichka/test-ci/actions/workflows/ci.yml)
+
 # Домашнее задание к лекции «Unit-тестирование»
 
 **Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.
